@@ -3,8 +3,8 @@
 
 $url = "https://api.echosign.com/api/rest/v6/baseUris"
 
-$header = @{"Authorization" = "Bearer 3AAABLblqZhD7gPDMJ5vjNsKgHXbUxh3eGm3Y2U_iTYlh40xEKV0n3JaoDk3uPhO5VSYrheIojNCU2WqAsaG1oYtllVLaHv9e";
-"x-api-user"= "email:echosmusz1+na2main@gmail.com"}
+$header = @{"Authorization" = "Bearer 3AAABLblqZhD7gPDM***** your access token or integration key here *****eIojNCU2WqAsaG1oYtllVLaHv9e";
+"x-api-user"= "email:sender.email@yourdomain.com"}
 
 $Result = Invoke-RestMethod -Uri $url -Method Get -Headers $header
 
